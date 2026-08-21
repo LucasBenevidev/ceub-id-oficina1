@@ -17,8 +17,8 @@ Prof. Lucas Benevides
 
 1. Clonar o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <pasta-do-repositorio>
+   git clone https://github.com/LucasBenevidev/ceub-id-oficina1.git
+   cd ceub-id-oficina1
    ```
 
 2. Subir o ambiente Airflow local:
