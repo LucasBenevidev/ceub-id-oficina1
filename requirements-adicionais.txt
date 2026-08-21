@@ -1,0 +1,4 @@
+# Depois de rodar `astro dev init` (que já cria um requirements.txt padrão),
+# adicione a linha abaixo ao requirements.txt gerado pelo Astro CLI:
+
+pandas==2.2.2
