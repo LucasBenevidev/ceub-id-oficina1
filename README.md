@@ -23,6 +23,7 @@ Prof. Lucas Benevides
 
 2. Subir o ambiente Airflow local:
    ```bash
+   astro dev init
    astro dev start
    ```
    Isso pode levar alguns minutos na primeira vez (download das imagens Docker).
