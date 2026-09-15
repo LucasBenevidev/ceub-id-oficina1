@@ -1,0 +1,26 @@
+# Dados pesados / Big Data
+bigData/
+
+# Astro CLI / Airflow
+.astro/
+logs/
+airflow.db
+airflow.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Saídas geradas pelo pipeline
+include/output/*.csv
+
+# Ambientes e segredos
+.env
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
