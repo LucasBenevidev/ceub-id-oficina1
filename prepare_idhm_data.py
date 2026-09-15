@@ -27,7 +27,7 @@ def download_and_prepare_idhm():
         DATA_URL,
         sep=";",
         decimal=",",
-        encoding="latin-1",
+        encoding="utf-8",
         low_memory=False,
         usecols=["ANO", "Codmun7", "Município", "UF", "IDHM", "IDHM_E", "IDHM_L", "IDHM_R"]
     )
