@@ -12,6 +12,7 @@ antes do início da aula (ver include/data/README.md e o script prepare_enem_dat
     - enem_municipios_medias.csv
     - idhm_municipios.csv
 """
+import os
 from datetime import datetime, timedelta
 
 import pandas as pd
@@ -68,6 +69,7 @@ def enem_idhm_pipeline():
         correlacao = df["nota_media_enem"].corr(df["idhm"])
         print(f"Correlação (Pearson) entre nota média do ENEM e o IDHM: {correlacao:.3f}")
 
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
         output_path = f"{OUTPUT_DIR}/enem_idhm_join.csv"
         df.to_csv(output_path, index=False)
         return output_path
